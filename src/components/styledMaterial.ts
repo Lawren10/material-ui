@@ -4,7 +4,7 @@ export const CustomDiv = styled("div")(({theme}) => ({
   backgroundColor: theme.palette.primary.main,
   width: "50%",
   height: "10rem",
-  animation: "move 2s linear alternate infinite",
+  animation: "move 2s linear alternate forwards",
 
   "@keyframes move": {
     "0%": {
